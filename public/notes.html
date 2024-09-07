@@ -111,76 +111,20 @@
 
           <div class="tw-mb-5">
             <h3 class="tw-mb-3 tw-font-Signika tw-text-3xl tw-font-semibold tw-text-emerald-800">Git Commands</h3>
-            <div class="tw-mb-3">
-              <h4 class="tw-mb-3 tw-text-2xl tw-font-medium tw-text-orange-700">Add file/folder to remote repository</h4>
-              <p>
-                For the first file/folder:
-                <br />
-                -
-                <b>git remote add origin</b>
-                https://github.com/Aurora1802/...git
-                <br />
-                -
-                <b>git add</b>
-                'file name.format/folder name'
-                <br />
-                -
-                <b>git commit -m</b>
-                "Your comment"
-                <br />
-                -
-                <b>
-                  git push
-                  <em>-f</em>
-                  origin master
-                </b>
-              </p>
-              <br />
-              <p>
-                For the next file/folder:
-                <br />
-                -
-                <b>git add</b>
-                'file name.format/folder name'
-                <br />
-                -
-                <b>git commit -m</b>
-                "Your comment"
-                <br />
-                -
-                <b>git push origin master</b>
-              </p>
-            </div>
 
             <div class="tw-mb-3">
               <h4 class="tw-mb-3 tw-text-2xl tw-font-medium tw-text-orange-700">Delete file/folder from remote repository</h4>
               <p>
                 -
-                <b>git rm -r</b>
+                <code>git rm -r</code>
                 'folder name/file name'
                 <br />
                 -
-                <b>git commit -m</b>
+                <code>git commit -m</code>
                 "Your comments"
                 <br />
                 -
-                <b>git push origin master</b>
-              </p>
-            </div>
-
-            <div class="tw-mb-3">
-              <h4 class="tw-mb-3 tw-text-2xl tw-font-medium tw-text-orange-700">Update changes of local file/folder to remote repository</h4>
-              <p>
-                -
-                <b>git add</b>
-                'file name/folder name'
-                <br />
-                -
-                <b>git commit -m</b>
-                "Your comments"
-                <br />
-                -
-                <b>git push origin master</b>
+                <code>git push origin main/master</code>
               </p>
             </div>
           </div>
@@ -191,27 +135,26 @@
 
           <div class="tw-mb-5">
             <h3 class="tw-mb-3 tw-font-Signika tw-text-3xl tw-font-semibold tw-text-emerald-800">Tailwind CSS Initilization</h3>
-            tw-
             <ul>
               <li>
                 - In VS Code, in the project folder (folder that contains all things for your project) open the Terminal by right-click on the folder =>
                 <b>Open in Integrated Terminal</b>
                 . Type
-                <b>npm init -y</b>
+                <code>npm init -y</code>
                 to create
                 <b>package.json</b>
                 file for using NodeJS packages.
               </li>
 
               <li>
-                <b>- npm install -D tailwindcss</b>
+                <code>- npm install -D tailwindcss</code>
                 => to create
                 <b>node-modules</b>
                 folder
               </li>
 
               <li>
-                <b>- npx tailwindcss init</b>
+                <code>- npx tailwindcss init</code>
                 to create
                 <b>tailwind.config.js</b>
                 file
@@ -231,13 +174,27 @@
               </li>
               <img class="tw-my-3 tw-h-80" src="img/tailwind-2.png" />
 
-              <li><b>- npm run build-css</b></li>
+              <li><code>- npm run build-css</code></li>
             </ul>
             <p class="tw-italic">
               Need to execute the code:
-              <b>npm run build-css</b>
+              <code>npm run build-css</code>
               every time relaunch VS Code.
             </p>
+          </div>
+
+          <div class="tw-mb-5">
+            <h3 class="tw-mb-3 tw-font-Signika tw-text-3xl tw-font-semibold tw-text-emerald-800">Tailwind CSS Configuration</h3>
+            <code class="tw-text-teal-800">npx tailwindcss init --full</code>
+            <p>&rarr; to create Tailwind default configuration file</p>
+            <p>
+              &rarr; this will create file:
+              <span class="tw-text-cyan-700">tailwindcss.config.js</span>
+              . This is the same as the file when we use
+              <span class="tw-text-green-800">npx tailwindcss init</span>
+              to create tailwind file used for the project.
+            </p>
+            <p>&rarr; rename the default config file to make sure that it's not used for our project.</p>
           </div>
         </div>
 
