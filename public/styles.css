@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Manrope:wght@200..800&family=Merienda:wght@300..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Salsa&family=Signika:wght@300..700&family=Solway:wght@300;400;500;700;800&family=Titan+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Baloo+Bhai+2:wght@400..800&family=Doppio+One&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Nanum+Gothic+Coding:wght@400;700&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Play:wght@400;700&family=Playpen+Sans:wght@100..800&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 /*
 ! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
@@ -573,6 +573,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.tw-flex{
+  display: flex;
+}
+
 .tw-h-64{
   height: 16rem;
 }
@@ -595,6 +599,31 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.tw-bg-emerald-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 78 59 / var(--tw-bg-opacity));
+}
+
+.tw-bg-slate-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.tw-bg-slate-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.tw-bg-gray-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.tw-bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .tw-p-5{
   padding: 1.25rem;
 }
@@ -608,15 +637,7 @@ video {
 }
 
 .tw-font-Merienda{
-  font-family: Merienda, cursive;
-}
-
-.tw-font-Salsa{
-  font-family: Salsa, cursive;
-}
-
-.tw-font-Signika{
-  font-family: Signika, sans-serif;
+  font-family: Merienda, system-ui;
 }
 
 .tw-text-2xl{
@@ -665,6 +686,11 @@ video {
   color: rgb(6 95 70 / var(--tw-text-opacity));
 }
 
+.tw-text-green-800{
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity));
+}
+
 .tw-text-orange-700{
   --tw-text-opacity: 1;
   color: rgb(194 65 12 / var(--tw-text-opacity));
@@ -675,12 +701,7 @@ video {
   color: rgb(17 94 89 / var(--tw-text-opacity));
 }
 
-.tw-text-blue-600{
+.tw-text-white{
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.tw-text-green-800{
-  --tw-text-opacity: 1;
-  color: rgb(22 101 52 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
