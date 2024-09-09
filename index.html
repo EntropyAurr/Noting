@@ -10,9 +10,9 @@
     <link rel="icon" href="img/notes.png" />
   </head>
 
-  <body class="tw-font-Hind Vadodara tw-bg-gray-200 tw-text-lg">
+  <body class="tw-bg-gray-200 tw-font-Ubuntu tw-text-lg">
     <nav class="top-sidebar tw-bg-gray-900 tw-text-white">
-      <h1 class="tw-text-center tw-font-KoHo tw-text-4xl tw-font-bold tw-text-emerald-600">AURORA'S BLOG</h1>
+      <h1 class="tw-text-center tw-font-KoHo tw-text-4xl tw-font-bold tw-leading-snug tw-text-emerald-600">AURORA'S BLOG</h1>
     </nav>
 
     <div class="container tw-flex">
@@ -25,104 +25,23 @@
 
       <div class="main-content">
         <div class="tw-mb-10 tw-bg-white tw-p-5">
-          <h2 class="tw-font-Salsa tw-text-center tw-text-4xl tw-font-bold tw-text-cyan-700">Git</h2>
+          <h2 class="tw-text-cyan-800">Git</h2>
 
           <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">What is Git?</h3>
-            <p>
-              Git is a popular
-              <b>version control system</b>
-              . It is used for: Tracking code changes; Tracking who made changes; Coding collaboration.
-            </p>
-          </div>
-
-          <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Git Initialization</h3>
-            <ul>
-              <li>
-                - Initialize Git on a folder, making it a Repository: open the folder you want to create a repository => right-click and choose
-                <b>Open Git Bash here</b>
-                . It then will create a hidden folder to keep track of changes in that folder.
-              </li>
-              <li>
-                - Another way is that you can open the folder using VS code => open Terminal in VS code => type
-                <b>git init</b>
-                to create a git repository in that folder.
-              </li>
-            </ul>
-          </div>
-
-          <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Git Terminology</h3>
-            <ul>
-              <li class="tw-mb-3">
-                <b>git init:</b>
-                initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
-              </li>
-
-              <li class="tw-mb-3">
-                <b>git clone:</b>
-                creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.
-              </li>
-
-              <li class="tw-mb-3">
-                <b>git add:</b>
-                stages a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.
-              </li>
-
-              <li class="tw-mb-3">
-                <b>git commit:</b>
-                saves the snapshot to the project history and
-                <b>completes</b>
-                the change-tracking process. In short, a commit functions like taking a photo. Anything that's been staged with
-                <b>git add</b>
-                will become a part of the snapshot with
-                <b>git commit</b>
-                .
-              </li>
-
-              <li class="tw-mb-3">
-                <b>git status:</b>
-                shows the status of changes as untracked, modified, or staged.
-              </li>
-
-              <li class="mb-3">
-                <b>git branch:</b>
-                shows the branches being worked on locally.
-              </li>
-
-              <li class="tw-mb-3">
-                <b>git merge:</b>
-                merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the main branch for deployment.
-              </li>
-
-              <li class="tw-mb-3">
-                <b>git pull:</b>
-                updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
-              </li>
-
-              <li class="tw-mb-3">
-                <b>git push:</b>
-                updates the remote repository with any commits made locally to a branch.
-              </li>
-            </ul>
-          </div>
-
-          <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Git Commands</h3>
+            <h3 class="tw-text-emerald-800">Git Commands</h3>
 
             <div class="tw-mb-3">
-              <h4 class="tw-mb-3 tw-text-2xl tw-font-medium tw-text-orange-700">Delete file/folder from remote repository</h4>
+              <h4 class="tw-text-orange-700">Delete file/folder from remote repository</h4>
+
               <p>
-                -
                 <code>git rm -r</code>
                 'folder name/file name'
-                <br />
-                -
+              </p>
+              <p>
                 <code>git commit -m</code>
                 "Your comments"
-                <br />
-                -
+              </p>
+              <p>
                 <code>git push origin main/master</code>
               </p>
             </div>
@@ -130,10 +49,10 @@
         </div>
 
         <div id="tailwind" class="tw-mb-10 tw-rounded-lg tw-bg-white tw-p-5">
-          <h2 class="tw-font-Salsa tw-text-center tw-text-4xl tw-font-bold tw-text-cyan-700">Tailwind CSS</h2>
+          <h2 class="tw-text-cyan-800">Tailwind CSS</h2>
 
           <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Tailwind CSS Initilization</h3>
+            <h3 class="tw-text-emerald-800">Tailwind CSS Initilization</h3>
             <ul>
               <li>
                 - In VS Code, in the project folder (folder that contains all things for your project) open the Terminal by right-click on the folder =>
@@ -183,7 +102,7 @@
           </div>
 
           <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Tailwind CSS Configuration</h3>
+            <h3 class="tw-text-emerald-800">Tailwind CSS Configuration</h3>
             <code class="tw-text-teal-800">npx tailwindcss init --full</code>
             <p>&rarr; to create Tailwind default configuration file</p>
             <p>
@@ -198,10 +117,10 @@
         </div>
 
         <div id="prettier" class="tw-mb-10 tw-rounded-lg tw-bg-white tw-p-5">
-          <h2 class="tw-font-Salsa tw-text-center tw-text-4xl tw-font-bold tw-text-cyan-700">Prettier</h2>
+          <h2 class="tw-text-cyan-800">Prettier</h2>
 
           <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Prettier Tailwind CSS Initilization</h3>
+            <h3 class="tw-text-emerald-800">Prettier Tailwind CSS Initilization</h3>
             <p>- Install "prettier-plugin-tailwindcss" as a dev-dependency:</p>
             <p class="tw-indent-3 tw-font-bold">npm install -D prettier prettier-plugin-tailwindcss</p>
             <p>
@@ -219,28 +138,13 @@
           </div>
 
           <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Issues</h3>
+            <h3 class="tw-text-emerald-800">Issues</h3>
             <p>
               - Old closing tag for empty element
               <b>" />"</b>
               still occurs.
             </p>
             <p>- When using HTML Formatting Elements (&lt;b&gt;, &lt;em&gt;, &lt;strong&gt;,...) in a paragraph (inside &lt;p&gt; element), Prettier automatically formats it to enter a new line.</p>
-          </div>
-        </div>
-
-        <div class="tw-mb-10 tw-rounded-lg tw-bg-white tw-p-5">
-          <h2 class="tw-font-Salsa tw-text-center tw-text-4xl tw-font-bold tw-text-cyan-700">Resources</h2>
-
-          <div class="tw-mb-5">
-            <h3 class="tw-font-Signika tw-mb-3 tw-text-3xl tw-font-semibold tw-text-emerald-800">Icons</h3>
-
-            <div class="icon-rsc">
-              <a class="tw-font-bold" href="https://www.flaticon.com/" target="_blank">1/ Flaticon</a>
-              <a class="tw-font-bold" href="https://fontawesome.com/" target="_blank">2/ Fontawesome</a>
-              <a href="https://dev.to/shoyeb001/5-websites-to-get-free-icons-for-web-development-nk6" target="_blank">Blog 1</a>
-              <a href="https://devresourc.es/category/icon" target="_blank">Blog 2</a>
-            </div>
           </div>
         </div>
       </div>

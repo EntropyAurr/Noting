@@ -27,6 +27,19 @@
 .main-content {
   margin-top: 80px;
 }
-.icon-rsc a {
-  display: block;
+h2 {
+  font-family: 'Acme';
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  font-family: 'Niramit';
+  font-size: 28px;
+  font-weight: 600;
+}
+h4 {
+  font-family: 'Shantell Sans';
+  font-size: 22px;
+  font-weight: 500;
 }
