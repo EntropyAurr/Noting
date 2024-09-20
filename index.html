@@ -25,14 +25,33 @@
 
       <div class="main-content">
         <div class="tw-mb-10 tw-bg-white tw-p-5">
-          <h2 class="tw-text-cyan-800">Git</h2>
+          <h2 class="tw-mb-6 tw-mt-3 tw-text-cyan-800">Command Line Interface (CLI)</h2>
+          <p>There are 3 ways to use CLI:</p>
+          <ul>
+            <li>
+              <span class="tw-font-semibold">Command Prompt:</span>
+              <code>cd D:/...</code>
+              (project folder's path) &rarr; D: &rarr; to change the path to the project directory
+            </li>
+            <li>
+              <span class="tw-font-semibold">Git Bash:</span>
+              right-click in the project folder &rarr;
+              <code>open Git Bash here</code>
+            </li>
+            <li>
+              <span class="tw-font-semibold">Terminal in VS Code:</span>
+              right-click on the project folder &rarr;
+              <code>Open in Integrated Terminal</code>
+            </li>
+          </ul>
+        </div>
 
+        <div class="tw-mb-10 tw-bg-white tw-p-5">
+          <h2 class="tw-mb-6 tw-mt-3 tw-text-cyan-800">Git</h2>
           <div class="tw-mb-5">
-            <h3 class="tw-text-emerald-800">Git Commands</h3>
-
+            <h3 class="tw-mb-4 tw-text-emerald-800">Git Commands</h3>
             <div class="tw-mb-3">
-              <h4 class="tw-text-orange-700">Delete file/folder from remote repository</h4>
-
+              <h4 class="tw-mb-2 tw-text-orange-700">Delete file/folder from remote repository</h4>
               <p>
                 <code>git rm -r</code>
                 'folder name/file name'
@@ -45,17 +64,29 @@
                 <code>git push origin main/master</code>
               </p>
             </div>
+
+            <div class="tw-mb-3">
+              <h4 class="tw-mb-2 tw-text-orange-700">Change the Commit Message</h4>
+              <p class="tw-font-semibold">If the Commit Has Not Been Pushed</p>
+              <code>git commit --amend</code>
+              <br />
+              <code>git push origin main</code>
+
+              <p class="tw-font-semibold">If the Commit Has Been Pushed</p>
+              <code>git commit --amend</code>
+              <br />
+              <code>git push --force origin main</code>
+            </div>
           </div>
         </div>
 
         <div id="tailwind" class="tw-mb-10 tw-rounded-lg tw-bg-white tw-p-5">
-          <h2 class="tw-text-cyan-800">Tailwind CSS</h2>
-
+          <h2 class="tw-mb-6 tw-mt-3 tw-text-cyan-800">Tailwind CSS</h2>
           <div class="tw-mb-5">
-            <h3 class="tw-text-emerald-800">Tailwind CSS Initilization</h3>
+            <h3 class="tw-mb-4 tw-text-emerald-800">Tailwind CSS Initilization</h3>
             <ul>
               <li>
-                - In VS Code, in the project folder (folder that contains all things for your project) open the Terminal by right-click on the folder =>
+                - In VS Code, in the project folder (folder that contains all things for your project) open the Terminal by right-click on the folder &rarr;
                 <b>Open in Integrated Terminal</b>
                 . Type
                 <code>npm init -y</code>
@@ -66,14 +97,14 @@
 
               <li>
                 <code>- npm install -D tailwindcss</code>
-                => to create
+                &rarr; to create
                 <b>node-modules</b>
                 folder
               </li>
 
               <li>
                 <code>- npx tailwindcss init</code>
-                to create
+                &rarr; to create
                 <b>tailwind.config.js</b>
                 file
               </li>
@@ -102,7 +133,7 @@
           </div>
 
           <div class="tw-mb-5">
-            <h3 class="tw-text-emerald-800">Tailwind CSS Configuration</h3>
+            <h3 class="tw-mb-4 tw-text-emerald-800">Tailwind CSS Configuration</h3>
             <code class="tw-text-teal-800">npx tailwindcss init --full</code>
             <p>&rarr; to create Tailwind default configuration file</p>
             <p>
@@ -117,12 +148,11 @@
         </div>
 
         <div id="prettier" class="tw-mb-10 tw-rounded-lg tw-bg-white tw-p-5">
-          <h2 class="tw-text-cyan-800">Prettier</h2>
-
+          <h2 class="tw-mb-6 tw-mt-3 tw-text-cyan-800">Prettier</h2>
           <div class="tw-mb-5">
-            <h3 class="tw-text-emerald-800">Prettier Tailwind CSS Initilization</h3>
+            <h3 class="tw-mb-4 tw-text-emerald-800">Prettier Tailwind CSS Initilization</h3>
             <p>- Install "prettier-plugin-tailwindcss" as a dev-dependency:</p>
-            <p class="tw-indent-3 tw-font-bold">npm install -D prettier prettier-plugin-tailwindcss</p>
+            <code>npm install -D prettier prettier-plugin-tailwindcss</code>
             <p>
               - Create
               <b>".prettierrc.json"</b>
@@ -138,7 +168,7 @@
           </div>
 
           <div class="tw-mb-5">
-            <h3 class="tw-text-emerald-800">Issues</h3>
+            <h3 class="tw-mb-4 tw-text-emerald-800">Issues</h3>
             <p>
               - Old closing tag for empty element
               <b>" />"</b>
